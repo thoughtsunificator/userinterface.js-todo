@@ -1,0 +1,63 @@
+input,
+button {
+	padding: 5px;
+}
+
+#popup-controls {
+	display: grid;
+	grid-gap: 10px;
+}
+
+#todo {
+	display: grid;
+	grid-gap: 25px;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto auto;
+}
+
+#lists {
+	display: grid;
+	grid-auto-rows: max-content;
+	grid-gap: 15px;
+}
+
+.lists {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.list {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	cursor: pointer;
+}
+
+.list.active {
+	background-color: #d4d4d4;
+}
+
+.list .name {
+	margin-right: 20px;
+	align-self: center;
+}
+
+#tasks {
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+
+.task {
+	display: grid;
+	align-items: center;
+	grid-gap: 5px;
+	grid-template-columns: auto 1fr auto auto;
+}
+
+
+.tasks + .placeholder {
+	grid-row: 1;
+}
+
+.tasks:not(:empty) + .placeholder {
+	display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo - userinterface.js</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./resource/todo.css">
+	<link rel="stylesheet" type="text/css" href="./lib/userinterface.js-collection/resource/popup.css">
+	<script src="./lib/userinterface.js/src/userinterface.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/button.js" type="text/javascript"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/popup.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/popup-form.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/popup-confirm.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/popup-controls.js"></script>
+	<script type="text/javascript" src="./src/object/todo.js"></script>
+	<script type="text/javascript" src="./src/object/list.js"></script>
+	<script type="text/javascript" src="./src/object/task.js"></script>
+	<script type="text/javascript" src="./data/todo.js"></script>
+	<script type="text/javascript" src="./src/userinterface/todo.js"></script>
+	<script type="text/javascript" src="./src/userinterface/list.js"></script>
+	<script type="text/javascript" src="./src/userinterface/task.js"></script>
+	<script type="text/javascript" src="./src/userinterface/tasks.js"></script>
+	<script type="text/javascript" src="./src/userinterface/form/task.js"></script>
+	<script type="text/javascript" src="./src/userinterface/form/list.js"></script>
+	<script>
+		window.addEventListener("load", () => {
+			UserInterface.runModel("todo", {
+				parentNode: document.body
+			})
+		})
+	</script>
+</head>
+<body>
+	<noscript>
+		This feature requires JavaScript to be enabled.
+	</noscript>
+</body>
+</html>

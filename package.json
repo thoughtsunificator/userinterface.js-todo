@@ -1,0 +1,22 @@
+{
+	"name": "userinterface.js-todo",
+	"version": "1.0.0",
+	"description": "A demo application made with userinterface.js",
+	"scripts": {
+		"start": "browser-sync -s -w  --no-ui --no-online --no-notify --no-open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/userinterface.js-todo.git"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/userinterface.js-todo/issues"
+	},
+	"homepage": "https://github.com/thoughtsunificator/userinterface.js-todo#readme",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"eslint": "^7.0.0"
+	}
+}
